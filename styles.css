@@ -1,0 +1,180 @@
+/*css styles */
+
+
+home-page{
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #f9f9f9;
+    margin: 0;
+}
+
+.logo{
+
+    size: 60px;
+    display: flex;
+    min-width: 5%;
+    max-width: 10%;
+    min-height: 5%;
+    max-height: 10%;
+    height: auto;
+}
+
+.header{
+
+    background: url("images/florence.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    white-space: normal;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-width: 1024px;
+    min-height: 610px;
+
+}
+
+#headerButtons a{
+
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+    padding: 1.5em;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    color: #51279B;
+    text-decoration: none;
+    margin-top:1em;
+
+}
+
+#headerButtons :hover{
+    color: #8662C7;
+
+}
+
+#header-text{
+   display: block;
+    margin-bottom:  8em; 
+    margin-right:19em;
+    margin-left: 1em;
+}
+
+h1{
+    
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 2em;
+    text-align: center;
+    padding-left:1em;
+    margin-bottom: 0em;
+  
+}
+
+h2{
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding-left: 6.4em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    font-weight: normal;
+
+}
+
+#header-text a{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: white;
+    padding: .75em;
+    background-color:  #51279B;
+    margin-left: 11em;
+    margin-top: 0.875em;
+}
+
+#header-text a:hover{
+    background-color:#8662C7;
+}
+
+.cards .card-image{
+    
+    display: inline-block;
+    width: 37em;
+    background-color: white;
+    margin-left: 1.75em;
+    margin-top: 2em;
+
+}
+
+.card1{
+    display: inline-block;
+}
+
+.card2{
+    display: inline-block;
+}
+
+.card3{
+    display: inline-block;
+}
+
+.cards .card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 0.1em;
+    margin-bottom: 0.30em;
+    margin-left: 2.5em;
+    font-weight: normal;
+}
+
+.cards .card-description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: 0em;
+    margin-left: 2.9em;
+    font-weight: normal;
+}
+
+.heart{
+    margin-left: 2.3em;
+    display: inline-block;
+    max-width: 0.75em;
+    max-height: 0.75em;
+
+}
+
+.comment{
+    display: inline-block;
+    max-width: 0.75em;
+    max-height: 0.75em;
+}
+
+.cards p{
+    
+    padding-right: 1em;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+footer{
+    margin: 1em -1em -1em;
+    text-align: center;
+    padding: 1.50em 2em 2em 3.5em;
+    color: white;
+    background-color: #51279B;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
