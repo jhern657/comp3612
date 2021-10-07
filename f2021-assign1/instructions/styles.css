@@ -1,0 +1,36 @@
+/*css styles */
+
+body{
+
+    background-image: "images/florence.jpg";
+    background-position: 100px 5px;
+    background-color: #cccccc;
+}
+
+.background-image{
+    padding: 20em;
+    background-image:"images/florence.jpg";
+}
+
+#headerButtons a{
+
+    text-align: left;
+    border: 0px solid white;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+}
+
+#headerButtons :hover{
+    color: #8662C7;
+
+}
+
+
+.top-left{
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
